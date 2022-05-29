@@ -1,16 +1,20 @@
 package my.jvm.hotspot.oops;
 
-public class MethodInfo {
-    private int accessFlag;
-    private String name;
-    private String descriptor;
-    private int attributesCount;
-    private AttributeInfo[] attributes;
+import lombok.Getter;
+import my.jvm.hotspot.classfile.Attribute;
 
-    public MethodInfo(int accessFlag, String name, String descriptor, int attributesCount, AttributeInfo[] attributes) {
+@Getter
+public class MethodInfo {
+    private final int accessFlag;
+    private final int nameIndex;
+    private final int descriptorIndex;
+    private final int attributesCount;
+    private final Attribute[] attributes;
+
+    public MethodInfo(int accessFlag, int nameIndex, int descriptorIndex, int attributesCount, Attribute[] attributes) {
         this.accessFlag = accessFlag;
-        this.name = name;
-        this.descriptor = descriptor;
+        this.nameIndex = nameIndex;
+        this.descriptorIndex = descriptorIndex;
         this.attributesCount = attributesCount;
         this.attributes = attributes;
     }

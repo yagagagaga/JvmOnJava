@@ -78,33 +78,4 @@ public interface ClassConstants {
     long JVM_RECOGNIZED_CLASS_MODIFIERS = 30257L;
     long JVM_RECOGNIZED_FIELD_MODIFIERS = 20703L;
     long JVM_RECOGNIZED_METHOD_MODIFIERS = 7679L;
-    //-------------------------
-    String Code = "Code";
-    String ConstantValue = "ConstantValue";
-    String Deprecated = "Deprecated";
-    String Exceptions = "Exceptions";
-    String EnclosingMethod = "EnclosingMethod";
-    String InnerClasses = "InnerClasses";
-    String LineNumberTable = "LineNumberTable";
-    String LocalVariableTable = "LocalVariableTable";
-    String StackMapTable = "StackMapTable";
-    String Signature = "Signature";
-    String SourceFile = "SourceFile";
-    String SourceDebugExtension = "SourceDebugExtension";
-    String Synthetic = "Synthetic";
-    String LocalVariableTypeTable = "LocalVariableTypeTable";
-    String RuntimeVisibleAnnotations = "RuntimeVisibleAnnotations";
-    String RuntimeInvisibleAnnotations = "RuntimeInvisibleAnnotations";
-    String RuntimeVisibleParameterAnnotations = "RuntimeVisibleParameterAnnotations";
-    String RuntimeInvisibleParameterAnnotations = "RuntimeInvisibleParameterAnnotations";
-    String AnnotationDefault = "AnnotationDefault";
-    String BootstrapMethods = "BootstrapMethods";
-    String RuntimeVisibleTypeAnnotations = "RuntimeVisibleTypeAnnotations";
-    String RuntimeInvisibleTypeAnnotations = "RuntimeInvisibleTypeAnnotations";
-    String MethodParameters = "MethodParameters";
-    String Module = "Module";
-    String ModulePackages = "ModulePackages";
-    String ModuleMainClass = "ModuleMainClass";
-    String NestHost = "NestHost";
-    String NestMembers = "NestMembers";
 }
